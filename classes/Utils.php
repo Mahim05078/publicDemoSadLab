@@ -18,4 +18,10 @@ class Utils {
             return 0;
     }
 
+	public static function logout2() {
+        session_unset();
+        session_destroy();
+    }
+
+
 }
